@@ -1,0 +1,38 @@
+.container{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: solid black 1px;
+    border-radius: 10px;
+}
+
+label{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    margin-top: -30px;
+}
+
+button{
+    background-color: rgb(57, 57, 255);
+    width: 200px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 5px;
+}
